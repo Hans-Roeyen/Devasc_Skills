@@ -1,13 +1,13 @@
 # Devasc_Skills
-NETACAD-DEVASC SKILLS-BASED EXAM December 2020
+## NETACAD-DEVASC SKILLS-BASED EXAM December 2020
 
-Task 1 Manage github scripts and documents
+### Task 1 Manage github scripts and documents
 
-Task Preperation
+#### Task Preperation
   1. Controleren of Github user information aanwezig, actueel en correct is op lokale werkomgeving.
   2. Remote repository aanmaken op Github.com
 
-Task implementation
+#### Task implementation
   1. De directory "Devasc_Skills" aanmaken
   2. Git initialiseren met => "git init"
   3. Testbestand "Github-Test.txt" in directory plaatsen
@@ -18,10 +18,10 @@ Task implementation
   7. Wijzigingen naar remote repository uploaden => git push origin master
   8. Controle van status op Github
 
-Task troubleshooting
+#### Task troubleshooting
   1. De verandering op Github van Master naar Main heb ik proberen door te voeren. Dat gaf meer problemen dan ik op korte tijd kon oplossen. Daarom blijf ik gebruik maken van Master als Default Branch.
   
-Task verification
+#### Task verification
   1. Afbeelding van Github repository met weergave van het bestand: "Github-Test.txt" met de "Tag" in de "Devasc_Skills" repository
   https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg)
   
