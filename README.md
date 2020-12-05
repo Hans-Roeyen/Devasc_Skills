@@ -24,6 +24,7 @@
 #### Task verification
   1. Afbeelding van Github repository met weergave van het bestand: "Github-Test.txt" met de "Tag" in de "Devasc_Skills" repository
   https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg)
+  2. Afbeelding van Github repository na update van README: https://github.com/Hans-Roeyen/Devasc_Skills/commit/d679bb51246009fc61af1292b375ac3d67d498d3#commitcomment-44833009
   
 
 
