@@ -60,9 +60,9 @@
   
 #### Task verification
   1. Afbeelding met weergave van de configuratie bestanden in de Github repository:
-     A. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
-     B. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
-     C. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
+  A. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
+  B. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
+  C. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
   2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
   3. Afbeelding *Task2-Ansible-Extra.jpg* is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible-Extra.jpg)
 
