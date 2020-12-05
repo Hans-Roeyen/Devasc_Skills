@@ -2,6 +2,7 @@
 NETACAD-DEVASC SKILLS-BASED EXAM December 2020
 
 Task 1 Manage github scripts and documents
+
 Task Preperation: 
   1. Controleren of Github user information aanwezig, actueel en correct is op lokale werkomgeving.
   2. Remote repository aanmaken op Github.com
