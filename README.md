@@ -63,5 +63,5 @@
      A. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
      B. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
      C. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
-  2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook
+  2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook:https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
 
