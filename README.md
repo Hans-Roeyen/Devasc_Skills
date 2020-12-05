@@ -22,6 +22,8 @@ Task troubleshooting
   1. De verandering op Github van Master naar Main heb ik proberen door te voeren. Dat gaf meer problemen dan ik op korte tijd kon oplossen. Daarom blijf ik gebruik maken van Master als Default Branch.
   
 Task verification
-  1. Afbeelding van Github repository met weergave van het bestand: "Github-Test.txt" in de "Devasc_Skills" repository
+  1. Afbeelding van Github repository met weergave van het bestand: "Github-Test.txt" met de "Tag" in de "Devasc_Skills" repository
   https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg)
+  
+
 
