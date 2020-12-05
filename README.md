@@ -24,7 +24,7 @@
 #### Task verification
   1. Afbeelding *Task1-Github.jpg* van Github repository met weergave van het bestand: *"Github-Test.txt"* in de Devasc_Skills repository
   https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg)
-  2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*: https://github.com/Hans-Roeyen/Devasc_Skills/commit/d679bb51246009fc61af1292b375ac3d67d498d3#commitcomment-44833009
+  2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg)
   
 ### Task 2 Manage ansible scripts
 
@@ -63,5 +63,6 @@
      A. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
      B. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
      C. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
-  2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook:https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
+  2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
+  3. Afbeelding *Task2-Ansible-Extra.jpg* is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible-Extra.jpg)
 
