@@ -1,0 +1,2 @@
+# Devasc_Skills
+NETACAD-DEVASC SKILLS-BASED EXAM December 2020
