@@ -19,4 +19,4 @@ Create a README.md document in which you concisely document the tasks using the 
 	• Task troubleshooting => what were the problems encountered?
 Task verification => proof of the quality of the result
 
-Wijzigingen i Github
+Dit is een testbestand voor Task 1 Manage github scripts and documents
