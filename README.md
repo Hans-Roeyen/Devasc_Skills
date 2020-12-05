@@ -23,5 +23,5 @@ Task troubleshooting
   
 Task verification
   1. Afbeelding van Github repository met weergave van het bestand: "Github-Test.txt" in de "Devasc_Skills" repository
-  ![screenshot Task1](https://Hans-Roeyen.github.com/Task1-Github.jpg)
+  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg)
 
