@@ -4,7 +4,8 @@
 ### Task 1 Manage github scripts and documents
 
 #### Task Preperation
-  1. Controleren of mijn Github user information aanwezig, actueel en correct is op lokale werkomgeving.
+  1. Bestaande GitHub account online nakijken
+  2. Controleren of mijn Github user information aanwezig, actueel en correct is op lokale werkomgeving.
   2. Remote repository aanmaken op Github.com voor deze opdracht.
 
 #### Task implementation
