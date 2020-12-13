@@ -83,10 +83,35 @@
   
       
   ### Task 5 Virtual router: curl => Python
+  
   #### Task Preperation
+  1. Alle cURL requests testen op virtuele router
+  2. Onderzoek van structuur Yang Model
+  3. Activeren "Logging Monitor" op virtuele router
+  
   #### Task implementation
+  1. OPTIONS
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-01.py
+  2. POST
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-02.py
+  3. PUT
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-03-2.py
+  4. PATCH
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-04.py
+  5. GET
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-05.py
+  6. DELETE
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06.py
+  7. Extra: om het resultaat van een aantal opdrachten na te kijken heb ik een extra Python script gebruikt:
+     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06-controle.py
+     
   #### Task troubleshooting
+  1. Connectie met virtuele router (authentication) gaf plots een error: "Warning Remote Host Identification Has Changed"
+     De snelste oplossing was een niet versie van de virtuele router maken.
+     Gevolg: een ander IP Adres (Oud IP: 192.168.41.128 - Nieuw IP: 192.168.41.129)
+     
   #### Task verification
+  1. Screenshot van Task 4 PATCH: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-Resultaat.jpg
 
       
   ### Task 6 Create Webex Teams API calls using a Python script
