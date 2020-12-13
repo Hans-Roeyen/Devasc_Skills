@@ -92,22 +92,11 @@
   ### Task 6 Create Webex Teams API calls using a Python script
   
   #### Task Preparation
-    1. Een Access Token ophalen op Cisco Webex for Developers: https://developer.webex.com/docs/api/v1/people/get-my-own-details
   
   #### Task Preperation
-    1. Een access token ophalen op Cisco Webex for Developers: https://developer.webex.com/docs/api/v1/people/get-my-own-details
-    2. Authentication met het opgehaalde Token testen via Python script: Task6-Access-Token.py 
-    3. Resultaat: Task6-Test-Access-Token.jpg
-  
+
   #### Task implementation
-    1. Een Room (space) aanmaken in Webex Teams via  Python: Task6-CreateRoom.py
-    2. Toevoegen van een lid aan de Room: Task6-CreateRoomMembership.py
-    3. 
-    4. 
-    5. 
-    6. 
-    7. 
-    8. 
+
   #### Task troubleshooting
   #### Task verification
   
