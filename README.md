@@ -57,7 +57,7 @@
 
 #### Task troubleshooting
   1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen: *[WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv*
-  -  De oorzaak was een foute configuratie in het bestand *IOS_COMMANDS_PB.yaml* => *connection: local* eerst weggelaten maar later toegevoegd
+     De oorzaak was een foute configuratie in het bestand *IOS_COMMANDS_PB.yaml* => *connection: local* eerst weggelaten maar later toegevoegd
   
 #### Task verification
   1. Afbeelding met weergave van de configuratie bestanden in de Github repository:
