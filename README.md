@@ -92,6 +92,8 @@
   ### Task 6 Create Webex Teams API calls using a Python script
   
   #### Task Preparation
+  1. Een Access-Token ophalen op Cisco Webex for Developers: https://developer.webex.com/docs/api/v1/people/get-my-own-details
+  2. Authentication met het opgehaalde Token testen via Python: Task6-Access-Token.py
   
   #### Task Preperation
 
