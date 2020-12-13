@@ -4,8 +4,8 @@
 ### Task 1 Manage github scripts and documents
 
 #### Task Preperation
-  1. Controleren of Github user information aanwezig, actueel en correct is op lokale werkomgeving.
-  2. Remote repository aanmaken op Github.com
+  1. Controleren of mijn Github user information aanwezig, actueel en correct is op lokale werkomgeving.
+  2. Remote repository aanmaken op Github.com voor deze opdracht.
 
 #### Task implementation
   1. De directory *"Devasc_Skills"* aanmaken
@@ -65,4 +65,45 @@
   C. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
   2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
   3. Afbeelding *Task2-Ansible-Extra.jpg* is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible-Extra.jpg)
+  
+  
+  ### Task 3 Manage Docker microservcies
+  #### Task Preperation
+  #### Task implementation
+  #### Task troubleshooting
+  #### Task verification
+  
+    
+  ### Task 4 CI/CD Pipeline using jenkins
+  #### Task Preperation
+  #### Task implementation
+  #### Task troubleshooting
+  #### Task verification
+  
+      
+  ### Task 5 Virtual router: curl => Python
+  #### Task Preperation
+  #### Task implementation
+  #### Task troubleshooting
+  #### Task verification
 
+      
+  ### Task 6 Create Webex Teams API calls using a Python script
+  #### Task Preperation
+  #### Task implementation
+  #### Task troubleshooting
+  #### Task verification
+  
+  
+  ### Task 7 Web application security
+  #### Task Preperation
+  #### Task implementation
+  #### Task troubleshooting
+  #### Task verification
+  
+  
+  ### Task 8 Unit testing
+  #### Task Preperation
+  #### Task implementation
+  #### Task troubleshooting
+  #### Task verification
