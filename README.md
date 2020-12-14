@@ -107,17 +107,17 @@
   
 #### Task implementation
 1. OPTIONS
-    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-01.py
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-01.py
 2. POST
-    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-02.py
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-02.py
 3. PUT
-    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-03-2.py
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-03-2.py
 4. PATCH
-    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-04.py
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-04.py
 5. GET
-    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-05.py
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-05.py
 6. DELETE
-  1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06.py
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06.py
 7. Extra: om het resultaat van een aantal opdrachten na te kijken heb ik een extra Python script gebruikt:
    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06-controle.py
      
