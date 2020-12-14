@@ -33,10 +33,10 @@
   1. Download van bronbestand opgave naar VM
   2. Installatie van *ansible-galaxy collection install cisco.ios* in VM
   3. Bestanden aanmaken voor in de *Devasc_Skills directory*
-  3.1. Ansible inventory file *hosts*
-  3.2. Configuratiebestand *ansible.cfg*
-  3.3. Ansible Playbook *IOS_COMMANDS_PB.yaml*
-  3.4. Connectie tussen VM’s controleren met *PING*
+  A. Ansible inventory file *hosts*
+  B. Configuratiebestand *ansible.cfg*
+  C. Ansible Playbook *IOS_COMMANDS_PB.yaml*
+  D. Connectie tussen VM’s controleren met *PING*
 
 #### Task implementation
   1. Configuratie hosts: 
