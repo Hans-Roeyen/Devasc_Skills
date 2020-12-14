@@ -86,7 +86,7 @@
   
 #### Task troubleshooting
 1. Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was.
-2. Na een korte zoektocht heb ik commands: ntpq -pn en ntpq -p gebruikt om de werking van de NTP server aan te tonen.
+2. Na een korte zoektocht heb ik commands: **ntpq -pn** en **ntpq -p** gebruikt om de werking van de NTP server aan te tonen.
 3. Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
   
 #### Task verification
