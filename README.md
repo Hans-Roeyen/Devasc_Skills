@@ -41,18 +41,20 @@
 
 #### Task implementation
 1. Configuratie hosts
-  1. *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* (IP Address is op mijn lokaal netwerk)
-2. Configuratie ansible.cfg: *inventory=./hosts*
-  *host_key_checking = False # Don't worry about RSA Fingerprints*
-  *retry_files_enabled = False # Do not create them*
-  *deprecation_warnings = False # Do not show warning*
+    1. *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* (IP Address is op mijn lokaal netwerk)
+2. Configuratie ansible.cfg:
+    1. *inventory=./hosts*
+    2. *host_key_checking = False # Don't worry about RSA Fingerprints*
+    3. *retry_files_enabled = False # Do not create them*
+    4. *deprecation_warnings = False # Do not show warning*
 3. Configuratie IOS_COMMANDS_PB.yaml:
-  *---
-  *- name: IOS_COMMANDS_PB*
-    -hosts: CSR1kv-
-    *gather_facts: false*
-    *connection: local*
-4. Uitvoeren Ansible Playbook => *devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml*
+    1. *---
+    2. *- name: IOS_COMMANDS_PB*
+    3. -hosts: CSR1kv-
+    4. *gather_facts: false*
+    5. *connection: local*
+4. Uitvoeren Ansible Playbook
+    1. *devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml*
 
 #### Task troubleshooting
   1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen: *[WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv*
