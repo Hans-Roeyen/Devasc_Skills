@@ -9,19 +9,19 @@
 3. Remote repository aanmaken op Github.com voor deze opdracht.
 
 #### Task implementation
-1. De directory *"Devasc_Skills"* aanmaken
+1. De directory **"Devasc_Skills"** aanmaken
 2. Git initialiseren
-   1. *"git init"*
-3. Testbestand *"Github-Test.txt"* in directory plaatsen
+   1. "git init"
+3. Testbestand **"Github-Test.txt"** in directory plaatsen
 4. Staging the file
-   1. *git add Github-Test.txt*
+   1. git add Github-Test.txt
 5. Tracking changes
-   1. *git commit -m "Task 1: Manage github scripts and documents"*
+   1. git commit -m "Task 1: Manage github scripts and documents"
    2. Het argument " -m " Laat toe om de wijziging te taggen
 6. De lokale directory koppelen aan de remote repository
-   1. *git remote add origin `https://github.com/Hans-Roeyen/Devasc_Skills.git*`
+   1. git remote add origin `https://github.com/Hans-Roeyen/Devasc_Skills.git`
 7. Wijzigingen naar remote repository uploaden
-   1. *git push origin master*
+   1. git push origin master
 8. Controle van status op Github
 
 #### Task troubleshooting
@@ -30,52 +30,52 @@
 3. Daarom blijf ik gebruik maken van Master als Default Branch.
   
 #### Task verification
-1. Afbeelding *Task1-Github.jpg* van Github repository met weergave van het bestand: *"Github-Test.txt"* in de Devasc_Skills repository
+1. Afbeelding **Task1-Github.jpg** van Github repository met weergave van het bestand: **"Github-Test.txt"** in de Devasc_Skills repository
     1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
-2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*:
+2. Afbeelding **Task1-Github-ReadmeUpdate.jpg** van Github repository na **update van README**:
     1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
   
 ### Task 2 Manage ansible scripts
 
 #### Task Preperation
 1. Download van bronbestand opgave naar VM
-2. Installatie van *ansible-galaxy collection install cisco.ios* in VM
-3. Bestanden aanmaken voor in de *Devasc_Skills directory*
-   1. Ansible inventory file *hosts*
-   2. Configuratiebestand *ansible.cfg*
-   3. Ansible Playbook *IOS_COMMANDS_PB.yaml*
-   4. Connectie tussen VM’s controleren met *PING*
+2. Installatie van **ansible-galaxy collection install cisco.ios** in VM
+3. Bestanden aanmaken voor in de **Devasc_Skills directory**
+   1. Ansible inventory file **hosts**
+   2. Configuratiebestand **ansible.cfg**
+   3. Ansible Playbook **IOS_COMMANDS_PB.yaml**
+   4. Connectie tussen VM’s controleren met **PING**
 
 #### Task implementation
 1. Configuratie hosts
-   1. *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* (IP Address is op mijn lokaal netwerk)
+   1. CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128 (IP Address is op mijn lokaal netwerk)
 2. Configuratie ansible.cfg:
-   1. *inventory=./hosts*
-   2. *host_key_checking = False # Don't worry about RSA Fingerprints*
-   3. *retry_files_enabled = False # Do not create them*
-   4. *deprecation_warnings = False # Do not show warning*
+   1. inventory=./hosts
+   2. host_key_checking = False # Don't worry about RSA Fingerprints
+   3. retry_files_enabled = False # Do not create them
+   4. deprecation_warnings = False # Do not show warning
 3. Configuratie IOS_COMMANDS_PB.yaml:
-   1. *---
-   2. *- name: IOS_COMMANDS_PB*
+   1. ---
+   2. - name: IOS_COMMANDS_PB
    3. -hosts: CSR1kv-
-   4. *gather_facts: false*
-   5. *connection: local*
+   4. gather_facts: false
+   5. *onnection: local
 4. Uitvoeren Ansible Playbook
-   1. *devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml*
+   1. devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml
 
 #### Task troubleshooting
 1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen:
-   1. *[WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv*
-   2. De oorzaak was een foute configuratie in het bestand *IOS_COMMANDS_PB.yaml* => *connection: local* eerst weggelaten maar later toegevoegd
+   1. [WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv
+   2. De oorzaak was een foute configuratie in het bestand **IOS_COMMANDS_PB.yaml** => **connection: local** eerst weggelaten maar later toegevoegd
   
 #### Task verification
 1. Afbeelding met weergave van de configuratie bestanden in de Github repository:
-   1. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
-   2. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
-   3. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
-2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook:
+   1. **IOS_COMMANDS_PB.yaml** met de "Tag" in de **Task 2: Manage ansible scripts**
+   2. **ansible.cfg** met de "Tag" in de **Task 2: Manage ansible scripts**
+   3. **hosts** met de "Tag" in de **Task 2: Manage ansible scripts**
+2. Afbeelding **Task2-Ansible.jpg** is het resultaat van het uitvoeren van de Ansible Playbook:
    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
-3. Afbeelding *Task2-Ansible-Extra.jpg* is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv:
+3. Afbeelding **Task2-Ansible-Extra.jpg** is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv:
    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible-Extra.jpg)
   
 ### Task 3 Manage Docker microservcies
