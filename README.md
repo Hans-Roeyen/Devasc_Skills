@@ -86,10 +86,10 @@
   Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
   
   #### Task verification
-  1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec 
-  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
+  1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec
+    https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
   2. Controle NTP server met "ntpq -pn" en "ntpq -p
-  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
+    https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
   
   
     
