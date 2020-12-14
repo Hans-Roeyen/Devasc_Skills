@@ -24,9 +24,9 @@
   
 #### Task verification
   1. Afbeelding *Task1-Github.jpg* van Github repository met weergave van het bestand: *"Github-Test.txt"* in de Devasc_Skills repository
-  - https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
+      https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
   2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*:
-  - https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
+      https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
   
 ### Task 2 Manage ansible scripts
 
@@ -34,10 +34,10 @@
   1. Download van bronbestand opgave naar VM
   2. Installatie van *ansible-galaxy collection install cisco.ios* in VM
   3. Bestanden aanmaken voor in de *Devasc_Skills directory*
-    A. Ansible inventory file *hosts*
-    B. Configuratiebestand *ansible.cfg*
-    C. Ansible Playbook *IOS_COMMANDS_PB.yaml*
-    D. Connectie tussen VM’s controleren met *PING*
+      Ansible inventory file *hosts*
+      Configuratiebestand *ansible.cfg*
+      Ansible Playbook *IOS_COMMANDS_PB.yaml*
+      Connectie tussen VM’s controleren met *PING*
 
 #### Task implementation
 1. Configuratie hosts:
