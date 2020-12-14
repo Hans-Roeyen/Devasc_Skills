@@ -121,6 +121,7 @@
      
   #### Task verification
   1. Screenshot van Task 4 PATCH: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-Resultaat.jpg
+  2. De Python scripts van Task5 staan bij de bestanden, met telkens de Tag "Task5 Python oplossingen".
 
   ### Task 6 Create Webex Teams API calls using a Python script
   
