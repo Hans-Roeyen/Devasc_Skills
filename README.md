@@ -55,11 +55,7 @@
    3. retry_files_enabled = False # Do not create them
    4. deprecation_warnings = False # Do not show warning
 3. Configuratie IOS_COMMANDS_PB.yaml:
-   1. ---
-   2. - name: IOS_COMMANDS_PB
-   3. -hosts: CSR1kv-
-   4. gather_facts: false
-   5. *onnection: local
+   1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/IOS_COMMANDS_PB.yaml
 4. Uitvoeren Ansible Playbook
    1. devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml
 
