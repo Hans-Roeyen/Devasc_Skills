@@ -121,37 +121,37 @@
 7. Extra: om het resultaat van een aantal opdrachten na te kijken heb ik een extra Python script gebruikt:
    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06-controle.py
      
-  #### Task troubleshooting
-  1. Connectie met virtuele router (authentication) gaf plots een error: "Warning Remote Host Identification Has Changed"
-     De snelste oplossing was een niet versie van de virtuele router maken.
-     Gevolg: een ander IP Adres (Oud IP: 192.168.41.128 - Nieuw IP: 192.168.41.129)
+#### Task troubleshooting
+1. Connectie met virtuele router (authentication) gaf plots een error: "Warning Remote Host Identification Has Changed"
+   1. De snelste oplossing was een nieuwe versie van de virtuele router maken.
+   2. Gevolg: een ander IP Adres (Oud IP: 192.168.41.128 - Nieuw IP: 192.168.41.129)
      
-  #### Task verification
-  1. Screenshot van Task 4 PATCH: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-Resultaat.jpg
-  2. De Python scripts van Task5 staan bij de bestanden, met telkens de Tag "Task5 Python oplossingen".
+#### Task verification
+1. Screenshot van Task 4 PATCH: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-Resultaat.jpg
+2. De Python scripts van Task5 staan bij de bestanden, met telkens de Tag "Task5 Python oplossingen".
 
-  ### Task 6 Create Webex Teams API calls using a Python script
+### Task 6 Create Webex Teams API calls using a Python script
   
-  #### Task Preparation
-  1. Een Access-Token ophalen op Cisco Webex for Developers: https://developer.webex.com/docs/api/v1/people/get-my-own-details
-  2. Authentication met het opgehaalde Token testen via Python: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-Access-Token.py
-  3. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-Test-Access-Token.jpg
+#### Task Preparation
+1. Een Access-Token ophalen op Cisco Webex for Developers: https://developer.webex.com/docs/api/v1/people/get-my-own-details
+2. Authentication met het opgehaalde Token testen via Python: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-Access-Token.py
+3. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-Test-Access-Token.jpg
 
-  #### Task implementation
-  1. Een Room (space) aanmaken in Webex Teams via Python: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-CreateRoom.py
-  2. Toevoegen van een Member aan de Room: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-CreateRoomMembership.py
-  3. De URL publiceren van de GitHub repository in deze Room: nog uit te voeren
-  3. Bericht deze Room verzenden: Testbericht gemaakt om schript te testen (is ok)
+#### Task implementation
+1. Een Room (space) aanmaken in Webex Teams via Python: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-CreateRoom.py
+2. Toevoegen van een Member aan de Room: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-CreateRoomMembership.py
+3. De URL publiceren van de GitHub repository in deze Room: nog uit te voeren
+3. Bericht deze Room verzenden: Testbericht gemaakt om schript te testen (is ok)
 
-  #### Task troubleshooting
-  1. Geen specifieke problemen moeten oplossen
+#### Task troubleshooting
+1. Geen specifieke problemen moeten oplossen
   
-  #### Task verification
-  1. Definitief resultaat nog niet beschikbaar
+#### Task verification
+1. Definitief resultaat nog niet beschikbaar
   
-  
-  ### Task 7 Web application security
-  1. Door tijdsgebrek heb ik deze taak niet kunnen maken. 
 
-  ### Task 8 Unit testing
-  1. Door tijdsgebrek heb ik deze taak niet kunnen maken. 
+### Task 7 Web application security
+1. Door tijdsgebrek heb ik deze taak niet kunnen maken. 
+
+### Task 8 Unit testing
+1. Door tijdsgebrek heb ik deze taak niet kunnen maken. 
