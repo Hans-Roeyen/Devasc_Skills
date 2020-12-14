@@ -69,10 +69,28 @@
   
   
   ### Task 3 Manage Docker microservcies
+  
   #### Task Preperation
+  1. Documentatie van de beschikbare Docker voorbeelden van NTP servers onderzoeken op compatibiliteit met Linux Host VM
+  
   #### Task implementation
+  1. Creatie van Dockerfile:
+  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-CreateDockerfile.jpg
+  2. Docker image maken met: docker build
+  3. Docker container opstarten: docker run:
+  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-run.jpg
+  
   #### Task troubleshooting
+  Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was. 
+  Na een korte zoektocht heb ik commands: ntpq -pn en ntpq -p gebruikt om de werking van de NTP server aan te tonen. 
+  Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
+  
   #### Task verification
+  1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec 
+  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
+  2. Controle NTP server met "ntpq -pn" en "ntpq -p
+  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
+  
   
     
   ### Task 4 CI/CD Pipeline using jenkins
