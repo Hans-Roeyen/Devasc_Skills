@@ -57,62 +57,69 @@
     1. *devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml*
 
 #### Task troubleshooting
-  1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen: *[WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv*
-     De oorzaak was een foute configuratie in het bestand *IOS_COMMANDS_PB.yaml* => *connection: local* eerst weggelaten maar later toegevoegd
+1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen:
+    1. *[WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv*
+    2. De oorzaak was een foute configuratie in het bestand *IOS_COMMANDS_PB.yaml* => *connection: local* eerst weggelaten maar later toegevoegd
   
 #### Task verification
-  1. Afbeelding met weergave van de configuratie bestanden in de Github repository:
-  A. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
-  B. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
-  C. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
-  2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
-  3. Afbeelding *Task2-Ansible-Extra.jpg* is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible-Extra.jpg)
+1. Afbeelding met weergave van de configuratie bestanden in de Github repository:
+    1. *IOS_COMMANDS_PB.yaml* met de "Tag" in de *Task 2: Manage ansible scripts*
+    2. *ansible.cfg* met de "Tag" in de *Task 2: Manage ansible scripts*
+    3. *hosts* met de "Tag" in de *Task 2: Manage ansible scripts*
+2. Afbeelding *Task2-Ansible.jpg* is het resultaat van het uitvoeren van de Ansible Playbook:
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible.jpg)
+3. Afbeelding *Task2-Ansible-Extra.jpg* is een alternatief resultaat van het uitvoeren van de Ansible Playbook na toevoegen van een Loopback interface op CSR1kv:
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task2-Ansible-Extra.jpg)
   
   
-  ### Task 3 Manage Docker microservcies
+### Task 3 Manage Docker microservcies
   
-  #### Task Preperation
-  1. Documentatie van de beschikbare Docker voorbeelden van NTP servers onderzoeken op compatibiliteit met Linux Host VM
+#### Task Preperation
+1. Documentatie van de beschikbare Docker voorbeelden van NTP servers onderzoeken op compatibiliteit met Linux Host VM
   
-  #### Task implementation
-  1. Creatie van Dockerfile:  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-CreateDockerfile.jpg
-  2. Docker image maken met: docker build
-  3. Docker container opstarten: docker run:  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-run.jpg
+#### Task implementation
+1. Creatie van Dockerfile:
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-CreateDockerfile.jpg
+2. Docker image maken met: docker build
+3. Docker container opstarten: docker run:
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-run.jpg
   
-  #### Task troubleshooting
-  1. Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was.
-  2. Na een korte zoektocht heb ik commands: ntpq -pn en ntpq -p gebruikt om de werking van de NTP server aan te tonen.
-  3. Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
+#### Task troubleshooting
+1. Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was.
+2. Na een korte zoektocht heb ik commands: ntpq -pn en ntpq -p gebruikt om de werking van de NTP server aan te tonen.
+3. Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
   
-  #### Task verification
-  1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
-  2. Controle NTP server met "ntpq -pn" en "ntpq -p" https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
+#### Task verification
+1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
+2. Controle NTP server met "ntpq -pn" en "ntpq -p"
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
     
-  ### Task 4 CI/CD Pipeline using jenkins
-  1. Door tijdsgebrek heb ik deze taak niet kunnen maken.  
+### Task 4 CI/CD Pipeline using jenkins
+1. Door tijdsgebrek heb ik deze taak niet kunnen maken.  
       
-  ### Task 5 Virtual router: curl => Python
+### Task 5 Virtual router: curl => Python
   
-  #### Task Preperation
-  1. Alle cURL requests testen op virtuele router
-  2. Onderzoek van structuur Yang Model
-  3. Activeren "Logging Monitor" op virtuele router
+#### Task Preperation
+1. Alle cURL requests testen op virtuele router
+2. Onderzoek van structuur Yang Model
+3. Activeren "Logging Monitor" op virtuele router
   
-  #### Task implementation
-  1. OPTIONS
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-01.py
-  2. POST
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-02.py
-  3. PUT
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-03-2.py
-  4. PATCH
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-04.py
-  5. GET
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-05.py
-  6. DELETE
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06.py
-  7. Extra: om het resultaat van een aantal opdrachten na te kijken heb ik een extra Python script gebruikt:
-     Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06-controle.py
+#### Task implementation
+1. OPTIONS
+    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-01.py
+2. POST
+    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-02.py
+3. PUT
+    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-03-2.py
+4. PATCH
+    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-04.py
+5. GET
+    1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-05.py
+6. DELETE
+  1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06.py
+7. Extra: om het resultaat van een aantal opdrachten na te kijken heb ik een extra Python script gebruikt:
+   1. Resultaat: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-restconf-sol-06-controle.py
      
   #### Task troubleshooting
   1. Connectie met virtuele router (authentication) gaf plots een error: "Warning Remote Host Identification Has Changed"
