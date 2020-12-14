@@ -40,8 +40,8 @@
     4. Connectie tussen VM’s controleren met *PING*
 
 #### Task implementation
-1. Configuratie hosts:
-  *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* (IP Address is op mijn lokaal netwerk)
+1. Configuratie hosts
+  1. *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* (IP Address is op mijn lokaal netwerk)
 2. Configuratie ansible.cfg: *inventory=./hosts*
   *host_key_checking = False # Don't worry about RSA Fingerprints*
   *retry_files_enabled = False # Do not create them*
