@@ -47,22 +47,17 @@
    4. Connectie tussen VM’s controleren met **PING**
 
 #### Task implementation
-1. Configuratie hosts
-   1. CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128 (IP Address is op mijn lokaal netwerk)
-2. Configuratie ansible.cfg:
-   1. inventory=./hosts
-   2. host_key_checking = False # Don't worry about RSA Fingerprints
-   3. retry_files_enabled = False # Do not create them
-   4. deprecation_warnings = False # Do not show warning
-3. Configuratie IOS_COMMANDS_PB.yaml:
-   1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/IOS_COMMANDS_PB.yaml
+1. Configuratie van het bestand: **hosts**
+2. Configuratie van het bestand: **ansible.cfg**
+3. Configuratie van het bestand: **IOS_COMMANDS_PB.yaml**
 4. Uitvoeren Ansible Playbook
    1. devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml
 
 #### Task troubleshooting
 1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen:
    1. [WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv
-   2. De oorzaak was een foute configuratie in het bestand **IOS_COMMANDS_PB.yaml** => **connection: local** eerst weggelaten maar later toegevoegd
+   2. De oorzaak was een foute configuratie in het bestand **IOS_COMMANDS_PB.yaml**
+   3. In het bestand de configuratie **connection: local** eerst weggelaten maar later toegevoegd
   
 #### Task verification
 1. De configuratie bestanden van Task2 in de Github repository:
