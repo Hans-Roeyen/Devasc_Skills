@@ -66,7 +66,8 @@
   
 #### Task verification
 1. Afbeelding met weergave van de configuratie bestanden in de Github repository:
-   1. **IOS_COMMANDS_PB.yaml** met de "Tag" in de **Task 2: Manage ansible scripts**
+   1. **IOS_COMMANDS_PB.yaml** 
+      1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/IOS_COMMANDS_PB.yaml
    2. **ansible.cfg** met de "Tag" in de **Task 2: Manage ansible scripts**
    3. **hosts** met de "Tag" in de **Task 2: Manage ansible scripts**
 2. Afbeelding **Task2-Ansible.jpg** is het resultaat van het uitvoeren van de Ansible Playbook:
