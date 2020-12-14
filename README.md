@@ -24,9 +24,9 @@
   
 #### Task verification
   1. Afbeelding *Task1-Github.jpg* van Github repository met weergave van het bestand: *"Github-Test.txt"* in de Devasc_Skills repository
-     1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
+  - https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
   2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*:
-     2. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
+  - https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
   
 ### Task 2 Manage ansible scripts
 
