@@ -145,14 +145,17 @@
    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-CreateRoom.py
 2. Toevoegen van een Member aan de Room:
    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-CreateRoomMembership.py
-3. De URL publiceren van de GitHub repository in deze Room: nog uit te voeren
-3. Bericht naar deze Room verzenden: Testbericht gemaakt om schript te testen (is ok)
+3. De URL publiceren van de GitHub repository in deze Room:
+4. Bericht naar deze Room verzenden om indienen van de taak te melden:
+   1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-SendMessage-Webex.py
 
 #### Task troubleshooting
 1. Geen specifieke problemen moeten oplossen
   
 #### Task verification
-1. Definitief resultaat nog niet beschikbaar
+1. Eindresultaat in Webex Teams
+   1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task6-Resultaat-Webex-Einde.jpg
+
   
 
 ### Task 7 Web application security
