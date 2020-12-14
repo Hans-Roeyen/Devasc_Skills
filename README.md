@@ -74,11 +74,9 @@
   1. Documentatie van de beschikbare Docker voorbeelden van NTP servers onderzoeken op compatibiliteit met Linux Host VM
   
   #### Task implementation
-  1. Creatie van Dockerfile:
-  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-CreateDockerfile.jpg
+  1. Creatie van Dockerfile:  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-CreateDockerfile.jpg
   2. Docker image maken met: docker build
-  3. Docker container opstarten: docker run:
-  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-run.jpg
+  3. Docker container opstarten: docker run:  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-run.jpg
   
   #### Task troubleshooting
   Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was. 
