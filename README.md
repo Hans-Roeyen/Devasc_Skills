@@ -80,24 +80,20 @@
   3. Docker container opstarten: docker run:  https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-run.jpg
   
   #### Task troubleshooting
-  Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was. 
-  Na een korte zoektocht heb ik commands: ntpq -pn en ntpq -p gebruikt om de werking van de NTP server aan te tonen. 
-  Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
+  1. Het was me niet onmiddellijk duidelijk hoe ik kon aantonen dat de NTP server actief was.
+  2. Na een korte zoektocht heb ik commands: ntpq -pn en ntpq -p gebruikt om de werking van de NTP server aan te tonen.
+  3. Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
   
   #### Task verification
   1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec
-    https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
+  1.1 https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
   2. Controle NTP server met "ntpq -pn" en "ntpq -p
-    https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
+  2.2 https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
   
   
     
   ### Task 4 CI/CD Pipeline using jenkins
-  #### Task Preperation
-  #### Task implementation
-  #### Task troubleshooting
-  #### Task verification
-  
+  1. Door tijdsgebrek heb ik deze taak niet kunnen maken.  
       
   ### Task 5 Virtual router: curl => Python
   
@@ -130,7 +126,6 @@
   #### Task verification
   1. Screenshot van Task 4 PATCH: https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task5-Resultaat.jpg
 
-      
   ### Task 6 Create Webex Teams API calls using a Python script
   
   #### Task Preparation
@@ -152,14 +147,7 @@
   
   
   ### Task 7 Web application security
-  #### Task Preperation
-  #### Task implementation
-  #### Task troubleshooting
-  #### Task verification
-  
-  
+  1. Door tijdsgebrek heb ik deze taak niet kunnen maken. 
+
   ### Task 8 Unit testing
-  #### Task Preperation
-  #### Task implementation
-  #### Task troubleshooting
-  #### Task verification
+  1. Door tijdsgebrek heb ik deze taak niet kunnen maken. 
