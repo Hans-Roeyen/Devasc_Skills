@@ -23,21 +23,21 @@
   1. De verandering op Github van Master naar Main heb ik proberen door te voeren. Dat gaf meer problemen dan ik op korte tijd kon oplossen. Daarom blijf ik gebruik maken van Master als Default Branch.
   
 #### Task verification
-  1. Afbeelding *Task1-Github.jpg* van Github repository met weergave van het bestand: *"Github-Test.txt"* in de Devasc_Skills repository
-      https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
-  2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*:
-      https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
+1. Afbeelding *Task1-Github.jpg* van Github repository met weergave van het bestand: *"Github-Test.txt"* in de Devasc_Skills repository
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github.jpg
+2. Afbeelding *Task1-Github-ReadmeUpdate.jpg* van Github repository na *update van README*:
+    1. https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task1-Github-ReadmeUpdate.jpg
   
 ### Task 2 Manage ansible scripts
 
 #### Task Preperation
-  1. Download van bronbestand opgave naar VM
-  2. Installatie van *ansible-galaxy collection install cisco.ios* in VM
-  3. Bestanden aanmaken voor in de *Devasc_Skills directory*
-      Ansible inventory file *hosts*
-      Configuratiebestand *ansible.cfg*
-      Ansible Playbook *IOS_COMMANDS_PB.yaml*
-      Connectie tussen VM’s controleren met *PING*
+1. Download van bronbestand opgave naar VM
+2. Installatie van *ansible-galaxy collection install cisco.ios* in VM
+3. Bestanden aanmaken voor in de *Devasc_Skills directory*
+    1. Ansible inventory file *hosts*
+    2. Configuratiebestand *ansible.cfg*
+    3. Ansible Playbook *IOS_COMMANDS_PB.yaml*
+    4. Connectie tussen VM’s controleren met *PING*
 
 #### Task implementation
 1. Configuratie hosts:
