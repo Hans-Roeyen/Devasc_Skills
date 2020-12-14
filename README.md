@@ -40,21 +40,19 @@
     D. Connectie tussen VM’s controleren met *PING*
 
 #### Task implementation
-  1. Configuratie hosts:
-    *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* 
-      (IP Address is op mijn lokaal netwerk)
-  2. Configuratie ansible.cfg: 
-       *inventory=./hosts*
-       *host_key_checking = False # Don't worry about RSA Fingerprints*
-       *retry_files_enabled = False # Do not create them*
-       *deprecation_warnings = False # Do not show warning*
-  3. Configuratie IOS_COMMANDS_PB.yaml:
-       *---
-        *- name: IOS_COMMANDS_PB*
-        -hosts: CSR1kv-
-        *gather_facts: false*
-        *connection: local*
-  4. Uitvoeren Ansible Playbook => *devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml*
+1. Configuratie hosts:
+  *CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128* (IP Address is op mijn lokaal netwerk)
+2. Configuratie ansible.cfg: *inventory=./hosts*
+  *host_key_checking = False # Don't worry about RSA Fingerprints*
+  *retry_files_enabled = False # Do not create them*
+  *deprecation_warnings = False # Do not show warning*
+3. Configuratie IOS_COMMANDS_PB.yaml:
+  *---
+  *- name: IOS_COMMANDS_PB*
+    -hosts: CSR1kv-
+    *gather_facts: false*
+    *connection: local*
+4. Uitvoeren Ansible Playbook => *devasc@labvm:~/Devasc_Skills$ ansible-playbook IOS_COMMANDS_PB.yaml*
 
 #### Task troubleshooting
   1. De juiste configuratie van de Ansible Playbook gaf foutmeldingen: *[WARNING]: Could not match supplied host pattern, ignoring: CSR1Kv*
