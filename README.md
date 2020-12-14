@@ -19,7 +19,7 @@
    1. *git commit -m "Task 1: Manage github scripts and documents"*
    2. Het argument " -m " Laat toe om de wijziging te taggen
 6. De lokale directory koppelen aan de remote repository
-   1. *git remote add origin https://github.com/Hans-Roeyen/Devasc_Skills.git*
+   1. *git remote add origin `https://github.com/Hans-Roeyen/Devasc_Skills.git*`
 7. Wijzigingen naar remote repository uploaden
    1. *git push origin master*
 8. Controle van status op Github
