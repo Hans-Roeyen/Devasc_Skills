@@ -1,2 +1,0 @@
-# Dit zijn de configuratiegegevens voor de hosts voor de Ansible playbooks
-CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.41.128
