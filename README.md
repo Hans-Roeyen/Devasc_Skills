@@ -85,12 +85,8 @@
   3. Hopelijk toont de output van de screenshot (Task3-NTP-server.jpg.) dit voldoende aan.
   
   #### Task verification
-  1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec
-  1.1 https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
-  2. Controle NTP server met "ntpq -pn" en "ntpq -p
-  2.2 https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
-  
-  
+  1. Nakijken werking NTP server via toegang tot Docker container met command: docker exec https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-Docker-exec.jpg
+  2. Controle NTP server met "ntpq -pn" en "ntpq -p" https://github.com/Hans-Roeyen/Devasc_Skills/tree/master/Task3-NTP-server.jpg
     
   ### Task 4 CI/CD Pipeline using jenkins
   1. Door tijdsgebrek heb ik deze taak niet kunnen maken.  
